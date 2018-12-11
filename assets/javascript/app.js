@@ -1,4 +1,4 @@
-$(document).ready(function(){
+     $(document).ready(function(){
 
     $('button').on('click', function() {
         var animal = $(this).data('name');
@@ -33,7 +33,7 @@ $(document).ready(function(){
 
                     animalImage.attr('data-animate', results[i].images.fixed_height.url)
 
-                    .attr('data-state', 'still');
+                    .attr('data-state', 'still'); 
 
                     animalDiv.append(p);
 
@@ -119,7 +119,7 @@ $(document).ready(function(){
 
                 $('.anImg').on('click', function() {
             
-                    var state = $(this).attr('data-state'); 
+                    var state = $(this).attr('data-state');  
                     console.log(this);
 
                     if (state == 'still') {
