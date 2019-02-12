@@ -1,5 +1,12 @@
-# GifTastic
+giphy-app
+An application utilizing the Giphy API for Rutgers Coding Bootcamp
 
-### Overview
-In this assignment, you'll use the GIPHY API to make a dynamic web page that populates with gifs of your choice. To finish this task, you must call the GIPHY API and use JavaScript and jQuery to change the HTML of your site.
 
+Functionality
+The application utilizes the GIPHY API to search for GIFs using pre-generated search terms and user-generated search terms.
+Each search term that is added to the page as a clickable button which will display the search results of that search term.
+
+TO DO's
+Change search functionality to display trending GIFs instead of the same set of GIFs corresponding to search terms.
+As of now, the search terms added by users will not work with search function.
+Create a hover function instead of a click function to play GIFs.
